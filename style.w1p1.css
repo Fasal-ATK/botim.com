@@ -1,0 +1,310 @@
+
+body{
+    margin: 0px;
+}
+.divhead {
+    margin: 0px;
+    background-color:#fff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+}
+
+.divhead img {
+
+    height: 45px;
+    width: 45px;
+    margin-top: 24px;
+    margin-left: 89px;
+    border-radius: 25%;
+}
+
+.divhead p {
+    padding-left: 9px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: system-ui;
+}
+
+.head-ol {
+    display: flex;
+    padding-left: 300px;
+    text-decoration: none;
+}
+.head-li{
+    list-style: none;
+    margin-left: 52px;
+    margin-right: 0px;
+    font-size: 13px;
+    margin-top: 23px;
+    font-family: system-ui;
+    
+}
+.head-li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.but{
+    width: 80px;
+    height: 52px;
+    border-radius: 49px;
+    margin-top: -14px;
+}
+.but:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+.mainBody{
+    background-color: #a46868;
+    width: 100%;
+    height: 1900px;
+}
+.topBody{
+    display: flex;
+    height: 700px;
+    width: 100%;
+}
+
+.left-body{
+    width: 50%;
+    height: 660px;
+    background-color: #fff;
+    padding-top: 215px;
+    
+    font-family: system-ui;
+}
+.l-para{
+    padding-left: 205px;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 55px;
+}
+.l2-para{
+    padding-left: 205px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+.l3-para{
+    padding-left: 205px;
+    color: #b0b0b0;
+    font-size: 13px;
+   
+}
+.emblem{
+    padding-left: 206px;
+    padding-top: 10px;
+}
+.emblemnote{
+    color: dodgerblue;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.emblemnote:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.right-body{
+   background-color: #fff;
+    width: 50%;
+    height: 660px;  
+    padding-top: 215px;
+    padding-left: 35px;
+}
+
+.downBody{
+    width: 100%;
+    height: 800px;
+    background-color:#eeeeee;
+    display: flex;
+    padding-top: 175px;
+}
+.down-left{
+    width: 33%;
+    height: 700px;
+    background-color:#eeeeee;
+}
+
+.down-center{
+    width: 34%;
+    height: 690px;
+    background-color: #eeeeee;
+}
+
+.down-right{
+    margin-top: 110px;
+    width: 30%;
+    height: 690px;
+    background-color: rgb(226, 98, 43);
+    border-radius: 14px;
+}
+
+.pic1{
+    margin-top: 110px;
+    border-radius: 10px;
+    height: 690px;
+    padding-left: 50px;
+    z-index: 0;
+}
+.Lpic-note1{
+    z-index: 1;
+    margin-top: -288px;
+    padding-left: 93px;
+    font-weight: bold;
+    font-family: system-ui,;
+    color: #fff;
+    font-size: 37px;
+}
+.Lpic-note2{
+    z-index: 1;
+    margin-top: 41px;
+    padding-left: 72px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.Lpic-note3{
+    z-index: 1;
+    margin-top: 41px;
+    padding-left: 65px;
+    color: #fff;
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+.pic2{
+    margin-top: 110px;
+    z-index: 1;
+    border-radius: 10px;
+    height: 690px;
+    padding-left: 38px;
+}
+
+.paypic{
+    position: absolute;
+    z-index: 2;
+    margin-top: 160px;
+    margin-left: 114px;
+    height: 45px;
+}
+.Cpic-note1{
+    z-index: 2;
+    color: #fff;
+    font-size: 48px;
+    font-family: fantasy;
+    padding-left: 165px;
+    padding-top: 105px;
+    margin-top: -165%;
+    margin-left: -5%;
+}
+.Cpic-note2{
+    z-index: 2;
+    color: #fff;
+    padding-left: 83px;
+    padding-right: 80px;
+    font-family: system-ui;
+}
+
+.pic3{
+    height: 270px;
+    padding-left: 80px;
+    padding-top: 96px;
+
+}
+.Rpic-note1{
+    color: #faee4b;
+    padding-left: 148px;
+    font-family: fantasy;
+    font-size: 45px;
+}
+.Rpic-note2{
+    color: #faee4b;
+    margin: 10px;
+    font-family: system-ui;
+}
+.last-body{
+    background-color: #eeeeee;
+    height: 300px;
+    width: 100%;
+}
+.last-body button{
+    margin-left: 38%;
+    margin-top: 85px;
+    height: 74px;
+    width: 364px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+.last-body button:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.divfoot{
+    width: 100%;
+    height: 250px;
+    background-color: #313233;
+    display: flex;
+}
+.foot1{
+    background-color: #313233;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+}
+.footkey{
+    color: #a3a3a3;
+    font-family: system-ui;
+   line-height: 15px;
+}
+.foot2{
+    background-color: #313233;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+}
+.foot3{
+    background-color: #313233;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+}
+.footkey:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+.end{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.end1{
+    height: 100px;
+    width: 20%;
+    text-align: center;
+}
+.end2{
+    height: 100px;
+    width: 20%;
+    text-align: center;
+}
+.end3{
+    height: 100px;
+    width: 20%;
+    text-align: center;
+}
+.endnote{
+    color: #a3a3a3;
+}
+.endnote:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
